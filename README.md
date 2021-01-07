@@ -1,2 +1,2 @@
 # shark_simulation
- This project allows the user to create a virtual shark tank among a netwrok of other tanks. The user thus takes part in a collective effort to counter the dwindling numbers of the worldwide shark population. 
+This project allows the user to create a virtual shark tank among a netwrok of other tanks. The user thus takes part in a collective effort to counter the dwindling numbers of the worldwide shark population. This installation was created for CART 351, taken at Concordia University under Sabine Rosenberg, during the Fall 2020 semester. This work displays my understanding of Javascript, PHP, AJAX, SQLite and the use of JSON files.
