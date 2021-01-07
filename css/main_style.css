@@ -1,0 +1,251 @@
+/*font import*/
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+
+   
+    body {
+        width : 100%;
+        overflow: hidden;
+
+    }
+    #main-conatiner {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        padding-bottom: 30px;
+        overflow: hidden;
+        z-index: 1;
+        margin: auto;
+        height: 100%;
+    }
+    #canvas-background {
+        position: absolute;
+        z-index:3;
+        top:-5%;
+        left:-5%;
+        width:110%;
+        height:110%;
+        overflow: hidden;
+        margin: auto;
+    }
+    #canvas {
+           top:0;
+           left:0;
+           width:100%;
+           height:100%;
+           overflow: hidden;
+           margin: auto;
+           position: absolute;
+        }
+
+ /*form css*/
+ 
+    .inputWindow{
+        position: absolute;
+        z-index: 99;
+        top: 25%;
+        left: 33%;
+        width: 30%;
+        padding-top: 2%;
+        background-color: whitesmoke;
+        border-radius: 1%;
+        margin: auto;
+        height: 50%;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        border: 2px solid #2c0452;
+        box-shadow: 15px 15px 1px #93d0ff, 15px 15px 1px 2px #2c0452;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    .inputWindow div{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 2%;
+    z-index: 54;
+    }
+    #subButton {
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 1%;
+        border: 2px solid #1c0452;
+        box-shadow: 8px 8px 1px #94d0ff, 8px 8px 1px 2px #2c0452;
+    }
+
+    #subButton:hover{
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 1%;
+        border: 2px solid #2c0452;
+        box-shadow: 8px 8px 1px #ad8cff, 8px 8px 1px 2px #2c0452;
+      
+    }
+
+    #timer {
+        position: absolute;
+        z-index: 99;
+        bottom: 6%;
+        left: 3%;
+        width: 4%;
+        background-color: whitesmoke;
+        border-radius: 1%;
+        margin: auto;
+        height: 3%;
+        padding: 3%;
+        border: 2px solid #2c0452;
+        box-shadow: 15px 15px 1px #93d0ff, 15px 15px 1px 2px #2c0452;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+   
+    #col_blue{
+        filter: invert(68%) sepia(11%) saturate(2228%) hue-rotate(173deg) brightness(110%) contrast(82%);
+        
+    }
+    #col_lightBlue {
+        filter: invert(76%) sepia(8%) saturate(2122%) hue-rotate(175deg) brightness(102%) contrast(101%);
+    }
+
+    #col_pink {
+        filter: invert(65%) sepia(25%) saturate(6621%) hue-rotate(232deg) brightness(96%) contrast(89%);
+    }
+    #col_grey{
+        filter: invert(37%) sepia(9%) saturate(993%) hue-rotate(144deg) brightness(91%) contrast(96%);
+    }
+    #col_darkPink {
+        filter: invert(47%) sepia(45%) saturate(653%) hue-rotate(259deg) brightness(81%) contrast(98%);  
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    #sharkFrame {
+        width: 96%;
+        height: 94%;
+        z-index: 27;
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        margin: auto;
+        overflow: hidden;
+        background-color: none;
+        border: 2px solid #94d0ff;
+    }
+    #toShow {
+        width: 34%;
+        height: 15%;
+        position: absolute;
+        top: 4%;
+        z-index: 50;
+        right: 33%;
+        border: 2px solid #94d0ff;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+        background-color: whitesmoke;
+        padding: 3%;
+        text-align: center;
+    }
+    #infoContainerLeft {
+        width: 15%;
+        height: 30%;
+        top: 5%;
+        right: 5%;
+        border: 2px solid #94d0ff;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+        background-color: whitesmoke;
+        position: absolute;
+        z-index: 0;
+        padding: 3%;
+        box-shadow: 15px 15px 1px #93d0ff, 15px 15px 1px 2px #2c0452;
+        
+    }
+
+
+    #subButton {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 1%;
+        border: 2px solid #1c0452;
+        box-shadow: 8px 8px 1px #94d0ff, 8px 8px 1px 2px #2c0452;
+    }
+
+    #back {
+        position: absolute;
+        bottom: 15%;
+        right: 47%;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+        width: auto;
+        height: 6%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 1%;
+        z-index: 20;
+        border: 2px solid #1c0452;
+        box-shadow: 8px 8px 1px #94d0ff, 8px 8px 1px 2px #2c0452;
+        font-size: 100%;
+    }
+    #holders{
+        
+        position: absolute;
+        z-index: 99;
+        bottom: 4%;
+        left: 3%;  
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 15%;
+        height: 30%;
+
+    }
+  
+    #holders div {
+        position: relative;
+        z-index: 49;
+        width: auto;
+        background-color: whitesmoke;
+        border-radius: 1%;
+        padding: 2%;
+        border: 2px solid #2c0452;
+        color: #2c0452;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 1em;
+        text-align: center;
+    }
+    #holders button {
+        
+        border: none;
+        background: none;
+    }
+
+    #holders #createButton2 {
+        border: 2px solid#94d0ff; 
+    }
+
+    #holders #createButton3 {
+        border: 2px solid#94d0ff; 
+    }
+
+    #import {
+        padding: 1%;
+    }
+
+    #check {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }

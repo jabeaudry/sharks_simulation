@@ -1,0 +1,100 @@
+/*font import*/
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+
+body {
+    width: 100%;
+  margin: auto;
+    overflow: hidden;
+}
+   #canvas-background {
+        position: absolute;
+        z-index:3;
+        top:-5%;
+        left:-5%;
+        width:110%;
+        height:110%;
+        overflow: hidden;
+        margin: auto;
+    }
+#insertUser{
+    position: absolute;
+    z-index: 99;
+    top: 39%;
+    left: 35%;
+    width: 20%;
+    padding-top: 2%;
+    background-color: whitesmoke;
+    border-radius: 1%;
+    margin: auto;
+    height: 30%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #2c0452;
+    box-shadow: 15px 15px 1px #93d0ff, 15px 15px 1px 2px #2c0452;
+    color: #2c0452;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#insertUser p{
+width: 80%;
+height: auto;
+display: flex;
+flex-direction: column;
+padding: 4%;
+margin: 2%;
+z-index: 54;
+}
+
+#buttonS {
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    margin-top: 1%;
+    border: 2px solid #1c0452;
+    box-shadow: 8px 8px 1px #94d0ff, 8px 8px 1px 2px #2c0452;
+    font-family: 'Fjalla One', sans-serif;
+    color: #2c0452;
+}
+
+#buttonS:hover{
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    margin-top: 1%;
+    border: 2px solid #2c0452;
+    box-shadow: 8px 8px 1px #ad8cff, 8px 8px 1px 2px #2c0452;
+  
+}
+
+.sub {
+    margin: auto;
+    width: 100%;
+    padding-right: 2%;
+}
+form {
+
+    margin: auto;
+    margin-top: -1%;
+    border-style: none;
+    width: 100%;
+}
+
+#welcome {
+    width: 76%;
+    z-index: 99;
+    height: 8%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    text-align: center;
+    padding: 3%;
+    border: 2px solid #2c0452;
+    box-shadow: 15px 15px 1px #93d0ff, 15px 15px 1px 2px #2c0452;
+    color: #2c0452;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: whitesmoke;
+}
+
